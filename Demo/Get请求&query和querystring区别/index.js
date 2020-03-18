@@ -1,6 +1,5 @@
 const koa= require('koa')
 const app = new koa()
-
 app.use((ctx)=>{
    
     let  _url =ctx.url
